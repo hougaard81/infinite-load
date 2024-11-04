@@ -1,0 +1,48 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2c3e50;  // Neutral dark blue-gray
+  }
+}
+
+.posts-container {
+  height: 600px;
+  overflow-y: auto;
+  border: 1px solid #e0e0e0;  // Lighter gray border
+  padding: 20px;
+  border-radius: 8px;
+  background: #fafafa;  // Very light gray background
+}
+
+.post-card {
+  background: white;
+  border: 1px solid #e6e6e6;  // Subtle border
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);  // Softer shadow
+  
+  h2 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+    color: #34495e;  // Dark blue-gray
+  }
+  
+  p {
+    margin: 0;
+    color: #7f8c8d;  // Medium gray
+    line-height: 1.5;
+  }
+}
+
+.loading {
+  text-align: center;
+  padding: 20px;
+  color: #95a5a6;  // Soft gray
+  font-style: italic;
+}
